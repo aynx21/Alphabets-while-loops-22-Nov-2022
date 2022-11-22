@@ -1,21 +1,22 @@
 #include <iostream>
 using namespace std ;
 int main() {
-    string Alphabet1,Alphabet2,Alphabet3;
+    string Alphabet1;
    int i = 1;
 while(i<= 3){
 
-cout<<" Please enter an alphabet:  \t  " ;
+cout<<" Please enter an alphabet:___  " ;
 cin>>Alphabet1;
 i++;
-if (Alphabet1== "a" || Alphabet1== "e" || Alphabet1== "i" || Alphabet1== "o" || Alphabet1== "u" ) {
+if (Alphabet1== "a" ||Alphabet1== "A" ||  Alphabet1== "e" || Alphabet1=="E" || Alphabet1== "i" || Alphabet1== "I" || Alphabet1== "o" || Alphabet1=="O" || Alphabet1== "u" || Alphabet1=="U" ) {
     
-    cout << " *| Your first alphabet is a vowel |* \n " ;
+    cout << " *| This alphabet is a vowel |* \n " ;
 }
  else {
-     cout << " *| Your Alphabet is a consonant |* \n " ;
+    cout << " *| This Alphabet is a consonant |* \n " ;
  }   
     
 }   
-    
-}
+ 
+ 
+} 
